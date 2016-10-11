@@ -12,6 +12,6 @@ export class AppComponent implements OnInit {
 	constructor(private sg: SimpleGlobal) { }
 
 	ngOnInit() {
-		this.sg['gv'] = 'This is a global variable';
+		this.sg['placeholder'] = 'This is a global variable';
 	}
 }
