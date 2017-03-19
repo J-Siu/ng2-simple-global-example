@@ -2,10 +2,42 @@
   "name": "ng2-simple-global-example",
   "description": "Angular 2 simple global variable service example",
   "version": "1.2.3",
-  "license": "MIT",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "dependencies": {
+    "@angular/common": "~2.4.0",
+    "@angular/compiler": "~2.4.0",
+    "@angular/core": "~2.4.0",
+    "@angular/forms": "~2.4.0",
+    "@angular/platform-browser": "~2.4.0",
+    "@angular/platform-browser-dynamic": "~2.4.0",
+    "systemjs": "0.19.40",
+    "core-js": "^2.4.1",
+    "rxjs": "5.0.1",
+    "zone.js": "^0.7.4",
+    "ng2-simple-global": "1.2.3"
+  },
+  "devDependencies": {
+    "typescript": "*",
+    "concurrently": "^3.1.0",
+    "lite-server": "^2.2.2",
+    "@types/node": "^6.0.46"
+  },
   "author": {
     "name": "John, Sing Dao, Siu",
     "url": "https://github.com/J-Siu"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/J-Siu/ng2-simple-global-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-Siu/ng2-simple-global-example.git"
   },
   "keywords": [
     "2",
@@ -17,30 +49,5 @@
     "ng",
     "ng2",
     "simple"
-  ],
-	"scripts": {
-		"start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
-		"lite": "lite-server",
-		"tsc": "tsc",
-		"tsc:w": "tsc -w"
-	},
-	"dependencies": {
-		"@angular/common": "~2.4.0",
-		"@angular/compiler": "~2.4.0",
-		"@angular/core": "~2.4.0",
-		"@angular/http": "~2.4.0",
-		"@angular/platform-browser": "~2.4.0",
-		"@angular/platform-browser-dynamic": "~2.4.0",
-		"systemjs": "0.19.40",
-		"core-js": "^2.4.1",
-		"rxjs": "5.0.1",
-		"zone.js": "^0.7.4",
-		"ng2-simple-timer": "1.2.9"
-	},
-	"devDependencies": {
-		"typescript": "*",
-		"concurrently": "^3.1.0",
-		"lite-server": "^2.2.2",
-		"@types/node": "^6.0.46"
-	}
+  ]
 }

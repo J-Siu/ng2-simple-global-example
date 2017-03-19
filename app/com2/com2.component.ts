@@ -3,8 +3,7 @@ import { SimpleGlobal } from 'ng2-simple-global';
 
 @Component({
 	selector: 'app-com2',
-	templateUrl: './com2.component.html',
-	styleUrls: ['./com2.component.css']
+	template: `<p>Component com2</p><input type="text" [(ngModel)]="sg.gv" placeholder="{{sg.placeholder}}">`
 })
 export class Com2Component implements OnInit {
 

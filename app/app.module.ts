@@ -1,7 +1,6 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { Com1Component } from './com1/com1.component';
@@ -17,8 +16,7 @@ import { SimpleGlobal } from 'ng2-simple-global';
 	],
 	imports: [
 		BrowserModule,
-		FormsModule,
-		HttpModule
+		FormsModule
 	],
 	providers: [SimpleGlobal],
 	bootstrap: [AppComponent]
