@@ -1,6 +1,6 @@
 # ng2-simple-global-example
 
-This is example for [ng2-simple-global](https://github.com/J-Siu/ng2-simple-global), a simple global variable service for Angular 2.
+This is example for [ng2-simple-global](https://github.com/J-Siu/ng2-simple-global), a simple global variable service for Angular.
 
 ## Index
 
@@ -27,8 +27,11 @@ npm start
 
 * 1.2.0 - Developed with ng-cli
 * 1.2.3
-	- Migrate to Angular2 ~2.4.0
+	- Migrate to Angular ~2.4.0
 	- Remove ng-cli dependency
+* 1.2.5
+	- Migrate to Angular 4.3.1
+	- Version jump to match ng2-simple-global
 
 ## License
 
