@@ -1,29 +1,33 @@
-# ng2-simple-global-example
+# Example for ng2-simple-global [![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=HZF49NM9D35SJ&no_recurring=0&currency_code=CAD)
 
 This is example for [ng2-simple-global](https://github.com/J-Siu/ng2-simple-global), a simple global variable service for Angular.
 
-## Index
+### Table Of Content
+<!-- TOC -->
 
-* [Usage](#Usage)
-* [Plunker](#Plunker)
-* [Changelog](#Changelog)
-* [License](#License)
+- [Usage](#usage)
+- [Plunker](#plunker)
+- [Contributors](#contributors)
+- [Changelog](#changelog)
+- [License](#license)
 
-## Usage
+<!-- /TOC -->
+
+### Usage
 
 ```
 npm install
 npm start
 ```
-## Plunker
+### Plunker
 
 [Plunker](http://plnkr.co/J4GvVp)
 
-## Contributors
+### Contributors
 
 * [John Sing Dao Siu](https://github.com/J-Siu)
 
-## Changelog
+### Changelog
 
 * 1.2.0 - Developed with ng-cli
 * 1.2.3
@@ -33,7 +37,7 @@ npm start
 	- Migrate to Angular 4.3.1
 	- Version jump to match ng2-simple-global
 
-## License
+### License
 
 The MIT License
 
